@@ -1,8 +1,8 @@
 {
-  "version": "0.1.0",
-  "notes": "First closed alpha build. Bot AI 1-4, music-reactive arena, walls, boost orbs, rotating laser. macOS only for now.",
+  "version": "0.1.1",
+  "notes": "Audio fix (music + SFX play in the launched game) + launcher window resized to 1280×800 with wider button.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.0/Pulsewave-0.1.0-mac.zip",
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.1/Pulsewave-0.1.1-mac.zip",
     "windows": "",
     "linux": ""
   }
