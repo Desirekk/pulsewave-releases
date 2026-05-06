@@ -1,9 +1,9 @@
 {
-  "version": "0.1.1",
-  "notes": "Audio fix (music + SFX play in the launched game) + launcher window resized to 1280×800 with wider button.",
+  "version": "0.1.2",
+  "notes": "First cross-platform release: Mac + Windows + Linux. Game and launcher built for all three platforms; auto-update works for existing testers.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.1/Pulsewave-0.1.1-mac.zip",
-    "windows": "",
-    "linux": ""
+    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.2/Pulsewave-0.1.2-mac.zip",
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.2/Pulsewave-0.1.2-win.zip",
+    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.1.2/Pulsewave-0.1.2-linux.zip"
   }
 }
