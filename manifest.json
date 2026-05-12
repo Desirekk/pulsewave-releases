@@ -1,10 +1,8 @@
 {
-  "version": "0.3.2",
-  "notes": "Audio bundled back into the main game .pck — fixes the silent-game regression from v0.3.1. Asset pack architecture abandoned: updates are larger (~90 MB) but reliable. No more manual workarounds, no more 'where did my music go'. Same game features as 0.3.1 — three modes (ARENA / CAPTURE THE PULSE / PAINT WAR), bot races for the orb in CAPTURE, first-to-30 ends the match, LV/XP shown in top bar + sidebar, PULSE/SURGE in CURRENCIES section with tooltips.",
+  "version": "0.15.4",
+  "notes": "MODULES screen redesign — picked variants from the v0.15.4 mockups. Library tiles are now HEX badges in a 4-column grid with rarity shown as a glowing dot (text never overflows). Slot picker is a SIDE DOCK that slides in from the right while the ship blueprint stays visible behind it. COSMETICS rebuilt as a 4-tab live composite preview (SHIP / PROJECTILE / TRAIL / SHIELD) — the ship is drawn with the real in-game texture, projectiles stream up using the active projectile shape + color, the trail uses active_trail_color(), the shield ring pulses with active_shield_color(). Click any skin in the right list and the preview updates instantly. Bugs fixed: rarity badges never spill out of their containers, slot X-button has a bigger hit area and swallows clicks before drag, single-click in the library equips, and filter-chip count badges sit inside the chip.",
   "builds": {
-    "macos": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.3.2/Pulsewave-0.3.2-mac.zip",
-    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.3.2/Pulsewave-0.3.2-win.zip",
-    "linux": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.3.2/Pulsewave-0.3.2-linux.zip"
+    "windows": "https://github.com/Desirekk/pulsewave-releases/releases/download/v0.15.4/Pulsewave-0.15.4-win.zip"
   },
   "launcher_version": "0.1.12",
   "launcher_notes": "Rename-first self-update — fixes the infinite-update loop on Windows (Defender was blocking the old del+copy flow, and the bat retry counter never incremented). Failed swaps now auto-restore from backup. CLASSES roster panel removed from left side.",
